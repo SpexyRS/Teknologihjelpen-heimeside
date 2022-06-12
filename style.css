@@ -61,6 +61,17 @@
   text-align: center;
 }
 
+#livechat {
+
+  color: #000000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40pt;
+  text-align: center;
+  width: 200;
+  height: 2000;
+
+
+}
 
 .button1 {
 
