@@ -3,7 +3,7 @@
   position: absolute;
   background-color: rgb(56, 166, 180);
   width: 100%;
-  height: 100%;
+  height: 300%;
   text-align: center;
   transition: 1s;
   transform-origin: 0;
@@ -65,10 +65,13 @@
 
   color: #000000;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 40pt;
+  font-size: 20pt;
   text-align: center;
   width: 200;
-  height: 2000;
+  height: 20;
+  position: fixed;
+  right: 90px;
+  bottom: 40px;
 
 
 }
@@ -88,12 +91,18 @@
   box-shadow: inset 0 0 0 0 #a81919;
   transition: ease-out 0.3s;
   width: 300px;
-  height: 100px
+  height: 100px;
+  position: absolute;
+  left: 1100px;
+  bottom: 100px;
+  top: 1000px;
+
 }
 
 .button1:hover {
 
   box-shadow: inset 300px 0 0 0 #a81919;
+  color: #cacaca;
 
 
 
@@ -120,6 +129,7 @@
 .button2:hover {
 
   box-shadow: inset 300px 0 0 0 #a81919;
+  color: #cacaca;
 
 
 
@@ -140,7 +150,7 @@
   box-shadow: inset 0 0 0 0 #a81919;
   transition: ease-out 0.3s;
   width: 300px;
-  height: 100px
+  height: 100px;
 }
 
 .button3:hover {
@@ -150,4 +160,38 @@
 
 
 
+}
+
+
+.buttoninfo {
+
+  background-color: #000000;
+  border: none #000000;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 12px;
+  box-shadow: inset 0 0 0 0 #000000;
+  transition: ease-out 0.3s;
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  left: 40px;
+  top: 20px;
+}
+
+.buttoninfo:hover {
+
+  box-shadow: inset 300px 0 0 0 #000000;
+  color: #f3abab;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: scroll
 }
