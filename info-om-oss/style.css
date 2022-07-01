@@ -193,3 +193,21 @@ body {
   height: 100%;
   overflow: scroll
 }
+
+
+
+
+@media only screen and (max-width:700px) {
+  #outside {
+    z-index: 1;
+    position: absolute;
+    background-color: rgb(56, 166, 180);
+    width: 360%;
+    height: 360%;
+    text-align: center;
+    transition: 1s;
+    transform-origin: 0;
+  }
+
+
+}
