@@ -184,11 +184,43 @@
   top: 20px;
 }
 
+
 .buttoninfo:hover {
 
   box-shadow: inset 300px 0 0 0 #000000;
   color: #f3abab;
 }
+
+
+
+.buttonkontakt {
+
+  background-color: #000000;
+  border: none #000000;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 12px;
+  box-shadow: inset 0 0 0 0 #000000;
+  transition: ease-out 0.3s;
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  left: 270px;
+  top: 20px;
+}
+
+
+.buttonkontakt:hover {
+
+  box-shadow: inset 300px 0 0 0 #000000;
+  color: #f3abab;
+}
+
 
 html,
 body {
