@@ -21,8 +21,12 @@
 }
 
 #outside-pic {
-  width: 300px;
-  height: 300px;
+  width: 1775px;
+  height: 637px;
+  position: absolute;
+  left: 350px;
+  bottom: 3500px;
+
 }
 
 #outside-help {
@@ -236,7 +240,7 @@ body {
   #outside {
     z-index: 1;
     position: absolute;
-    background-color: rgb(56, 166, 180);
+    background-color: rgb(54, 3, 173);
     width: 360%;
     height: 360%;
     text-align: center;
