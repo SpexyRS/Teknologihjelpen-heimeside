@@ -14,10 +14,28 @@
 }
 
 #outside-title {
-  color: rgb(0, 0, 0);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 40pt;
+  color: rgb(255, 255, 255);
+  font-family: Courier;
+  font-size: 50pt;
   text-align: center;
+
+}
+
+#kontaktinfo {
+  color: rgb(255, 255, 255);
+  font-family: Courier;
+  font-size: 20pt;
+  text-align: center;
+
+}
+
+
+#kontaktinfo2 {
+  color: rgb(255, 255, 255);
+  font-family: Courier;
+  font-size: 20pt;
+  text-align: center;
+
 }
 
 #outside-pic {
@@ -194,6 +212,9 @@ body {
   height: 100%;
   overflow: scroll
 }
+
+
+
 
 
 
