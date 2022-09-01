@@ -67,7 +67,7 @@
 
 #livechat {
 
-  color: #000000;
+  color: #ffffff;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20pt;
   text-align: center;
@@ -248,7 +248,14 @@ body {
     transform-origin: 0;
   }
 
+  #outside-pic {
+    width: 1775px;
+    height: 637px;
+    position: absolute;
+    left: 350px;
+    bottom: 3500px;
 
+  }
 
 
   #inside {
