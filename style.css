@@ -246,6 +246,7 @@ body {
     text-align: center;
     transition: 1s;
     transform-origin: 0;
+    zoom:50%;
   }
 
   #outside-pic {
