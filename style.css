@@ -237,6 +237,12 @@ body {
 
 
 @media only screen and (max-width:700px) {
+  
+   html,
+  body {
+    height: 100%;
+    overflow: hidden
+  }
   #outside {
     z-index: 1;
     position: absolute;
