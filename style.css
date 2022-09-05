@@ -1,266 +1,506 @@
-#outside {
-  z-index: 1;
-  position: absolute;
-  background-color: rgb(54, 3, 173);
-  width: 100%;
-  height: 300%;
-  text-align: center;
-  transition: 1s;
-  transform-origin: 0;
-}
-
-.open-card {
-  transform: rotateY(90deg);
-}
-
-#outside-title {
-  color: rgb(0, 0, 0);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 40pt;
-  text-align: center;
-}
-
-#outside-pic {
-  width: 1775px;
-  height: 637px;
-  position: absolute;
-  left: 350px;
-  bottom: 3500px;
-
-}
-
-#outside-help {
-  color: rgb(0, 0, 0);
-  font-family: Courier;
-  font-size: 12pt;
-  text-align: center;
-  padding: 20px;
-}
-
-#inside {
-  z-index: 0;
-  position: absolute;
-  background-color: rgb(71, 30, 221);
-  width: 100%;
-  height: 300%;
-  text-align: center;
-}
-
-#inside-title {
-  color: rgb(255, 255, 255);
-  font-family: Courier;
-  font-size: 20pt;
-  text-align: center;
-}
-
-#inside-pic {
-  width: 300x;
-  height: 300px;
-}
-
-#message {
-  color: rgb(255, 255, 255);
-  font-family: Courier;
-  font-size: 12pt;
-  text-align: center;
-}
-
-#livechat {
-
-  color: #ffffff;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20pt;
-  text-align: center;
-  width: 200;
-  height: 20;
-  position: fixed;
-  right: 90px;
-  bottom: 40px;
+@media only screen and (max-width:2560px){
 
 
-}
-
-.button1 {
-
-  background-color: #ff0000;
-  border: none #000000;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 22px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  border-radius: 12px;
-  box-shadow: inset 0 0 0 0 #a81919;
-  transition: ease-out 0.3s;
-  width: 300px;
-  height: 100px;
-  position: absolute;
-  left: 1100px;
-  bottom: 100px;
-  top: 1000px;
-
-}
-
-.button1:hover {
-
-  box-shadow: inset 300px 0 0 0 #a81919;
-  color: #cacaca;
-
-
-
-}
-
-.button2 {
-
-  background-color: #ff0000;
-  border: none #000000;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 22px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  border-radius: 12px;
-  box-shadow: inset 0 0 0 0 #a81919;
-  transition: ease-out 0.3s;
-  width: 300px;
-  height: 100px
-}
-
-.button2:hover {
-
-  box-shadow: inset 300px 0 0 0 #a81919;
-  color: #cacaca;
-
-
-
-}
-
-.button3 {
-
-  background-color: #ff0000;
-  border: none #000000;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 22px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  border-radius: 12px;
-  box-shadow: inset 0 0 0 0 #a81919;
-  transition: ease-out 0.3s;
-  width: 300px;
-  height: 100px;
-}
-
-.button3:hover {
-
-  box-shadow: inset 300px 0 0 0 #5eff00;
-  color: #000000;
-
-
-
-}
-
-
-.buttoninfo {
-
-  background-color: #000000;
-  border: none #000000;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 22px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  border-radius: 12px;
-  box-shadow: inset 0 0 0 0 #000000;
-  transition: ease-out 0.3s;
-  position: absolute;
-  width: 200px;
-  height: 60px;
-  left: 40px;
-  top: 20px;
-}
-
-
-.buttoninfo:hover {
-
-  box-shadow: inset 300px 0 0 0 #000000;
-  color: #f3abab;
-}
-
-
-
-.buttonkontakt {
-
-  background-color: #000000;
-  border: none #000000;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 22px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  border-radius: 12px;
-  box-shadow: inset 0 0 0 0 #000000;
-  transition: ease-out 0.3s;
-  position: absolute;
-  width: 200px;
-  height: 60px;
-  left: 270px;
-  top: 20px;
-}
-
-
-.buttonkontakt:hover {
-
-  box-shadow: inset 300px 0 0 0 #000000;
-  color: #f3abab;
-}
-
-
-html,
-body {
-  height: 100%;
-  overflow: scroll
-}
-
-
-
-
-
-@media only screen and (max-width:700px) {
-  
-   html,
-  body {
-    height: 100%;
-    overflow: scroll
-  }
   #outside {
     z-index: 1;
     position: absolute;
     background-color: rgb(54, 3, 173);
-    width: 360%;
-    height: 360%;
+    width: 100%;
+    height: 300%;
     text-align: center;
     transition: 1s;
     transform-origin: 0;
-    zoom:50%;
+    zoom: 50%;
   }
-
+  
+  .open-card {
+    transform: rotateY(90deg);
+  }
+  
+  #outside-title {
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40pt;
+    text-align: center;
+  }
+  
   #outside-pic {
     width: 1775px;
     height: 637px;
     position: absolute;
     left: 350px;
     bottom: 3500px;
+  
+  }
+  
+  #outside-help {
+    color: rgb(0, 0, 0);
+    font-family: Courier;
+    font-size: 12pt;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #inside {
+    z-index: 0;
+    position: absolute;
+    background-color: rgb(71, 30, 221);
+    width: 100%;
+    height: 300%;
+    text-align: center;
+  }
+  
+  #inside-title {
+    color: rgb(255, 255, 255);
+    font-family: Courier;
+    font-size: 20pt;
+    text-align: center;
+  }
+  
+  #inside-pic {
+    width: 300x;
+    height: 300px;
+  }
+  
+  #message {
+    color: rgb(255, 255, 255);
+    font-family: Courier;
+    font-size: 12pt;
+    text-align: center;
+  }
+  
+  #livechat {
+  
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    width: 200;
+    height: 20;
+    position: fixed;
+    right: 90px;
+    bottom: 40px;
+  
+  
+  }
+  
+  .button1 {
+  
+    background-color: #ff0000;
+    border: none #000000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 0 #a81919;
+    transition: ease-out 0.3s;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    left: 1100px;
+    bottom: 100px;
+    top: 1000px;
+  
+  }
+  
+  .button1:hover {
+  
+    box-shadow: inset 300px 0 0 0 #a81919;
+    color: #cacaca;
+  
+  
+  
+  }
+  
+  .button2 {
+  
+    background-color: #ff0000;
+    border: none #000000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 0 #a81919;
+    transition: ease-out 0.3s;
+    width: 300px;
+    height: 100px
+  }
+  
+  .button2:hover {
+  
+    box-shadow: inset 300px 0 0 0 #a81919;
+    color: #cacaca;
+  
+  
+  
+  }
+  
+  .button3 {
+  
+    background-color: #ff0000;
+    border: none #000000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 0 #a81919;
+    transition: ease-out 0.3s;
+    width: 300px;
+    height: 100px;
+  }
+  
+  .button3:hover {
+  
+    box-shadow: inset 300px 0 0 0 #5eff00;
+    color: #000000;
+  
+  
+  
+  }
+  
+  
+  .buttoninfo {
+  
+    background-color: #000000;
+    border: none #000000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 0 #000000;
+    transition: ease-out 0.3s;
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 40px;
+    top: 20px;
+  }
+  
+  
+  .buttoninfo:hover {
+  
+    box-shadow: inset 300px 0 0 0 #000000;
+    color: #f3abab;
+  }
+  
+  
+  
+  .buttonkontakt {
+  
+    background-color: #000000;
+    border: none #000000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 0 #000000;
+    transition: ease-out 0.3s;
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 270px;
+    top: 20px;
+  }
+  
+  
+  .buttonkontakt:hover {
+  
+    box-shadow: inset 300px 0 0 0 #000000;
+    color: #f3abab;
+  }
+  
+  
+  html,
+  body {
+    height: 100%;
+    overflow: scroll
+  }
+
+
+
+
+@media only screen and (max-width:1920px){
+
+
+  #outside {
+    z-index: 1;
+    position: absolute;
+    background-color: rgb(54, 3, 173);
+    width: 100%;
+    height: 300%;
+    text-align: center;
+    transition: 1s;
+    transform-origin: 0;
+    zoom: 50%;
+  }
+  
+  .open-card {
+    transform: rotateY(90deg);
+  }
+  
+  #outside-title {
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40pt;
+    text-align: center;
+  }
+  
+  #outside-pic {
+    width: 1775px;
+    height: 637px;
+    position: absolute;
+    left: 600px;
+    bottom: 3950px;
+  
+  }
+  
+  #outside-help {
+    color: rgb(0, 0, 0);
+    font-family: Courier;
+    font-size: 12pt;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #inside {
+    z-index: 0;
+    position: absolute;
+    background-color: rgb(71, 30, 221);
+    width: 100%;
+    height: 300%;
+    text-align: center;
+  }
+  
+  #inside-title {
+    color: rgb(255, 255, 255);
+    font-family: Courier;
+    font-size: 20pt;
+    text-align: center;
+  }
+  
+  #inside-pic {
+    width: 300x;
+    height: 300px;
+  }
+  
+  #message {
+    color: rgb(255, 255, 255);
+    font-family: Courier;
+    font-size: 12pt;
+    text-align: center;
+  }
+  
+  #livechat {
+  
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32pt;
+    text-align: center;
+    width: 290px;
+    height: 20px;
+    position: fixed;
+    bottom: 100px;
+    left: 2500px;
+  
+  
+  }
+  
+  .button1 {
+  
+    background-color: #ff0000;
+    border: none #000000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 0 #a81919;
+    transition: ease-out 0.3s;
+    width: 400px;
+    height: 120px;
+    position: absolute;
+    left: 1300px;
+    bottom: 100px;
+    top: 1000px;
+  
+  }
+  
+  .button1:hover {
+  
+    box-shadow: inset 400px 0 0 0 #a81919;
+    color: #cacaca;
+  
+  
+  
+  }
+  
+  .button2 {
+  
+    background-color: #ff0000;
+    border: none #000000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 0 #a81919;
+    transition: ease-out 0.3s;
+    width: 300px;
+    height: 100px
+  }
+  
+  .button2:hover {
+  
+    box-shadow: inset 300px 0 0 0 #a81919;
+    color: #cacaca;
+  
+  
+  
+  }
+  
+  .button3 {
+  
+    background-color: #ff0000;
+    border: none #000000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 0 #a81919;
+    transition: ease-out 0.3s;
+    width: 300px;
+    height: 100px;
+  }
+  
+  .button3:hover {
+  
+    box-shadow: inset 300px 0 0 0 #5eff00;
+    color: #000000;
+  
+  
+  
+  }
+  
+  
+  .buttoninfo {
+  
+    background-color: #000000;
+    border: none #000000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 0 #000000;
+    transition: ease-out 0.3s;
+    position: absolute;
+    width: 300px;
+    height: 85px;
+    left: 40px;
+    top: 20px;
+  }
+  
+  
+  .buttoninfo:hover {
+  
+    box-shadow: inset 300px 0 0 0 #000000;
+    color: #f3abab;
+  }
+  
+  
+  
+  .buttonkontakt {
+  
+    background-color: #000000;
+    border: none #000000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 0 #000000;
+    transition: ease-out 0.3s;
+    position: absolute;
+    width: 300px;
+    height: 85px;
+    left: 400px;
+    top: 20px;
+  }
+  
+  
+  .buttonkontakt:hover {
+  
+    box-shadow: inset 300px 0 0 0 #000000;
+    color: #f3abab;
+  }
+  
+  
+  html,
+  body {
+    height: 100%;
+    overflow: scroll
+  }
+  
+
+ 
+
+@media only screen and (max-width:700px) {
+
+
+  
+  #outside {
+    z-index: 1;
+    position: absolute;
+    background-color: rgb(54, 3, 173);
+    width: 420%;
+    height: 398%;
+    text-align: center;
+    transition: 1s;
+    transform-origin: 0;
+  }
+
+  #outside-pic {
+    width: 3000px;
+    height: 1400px;
+    position: absolute;
+    left: 300px;
+    bottom: 5500px;
 
   }
 
@@ -283,6 +523,145 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 32px;
+    box-shadow: inset 0 0 0 0 #a81919;
+    transition: ease-out 0.3s;
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    left: 1025px;
+    bottom: 100px;
+    top: 2500px;
+
+
+  
+
+
+  }
+
+  .button1:hover {
+  
+    box-shadow: inset 1000px 0 0 0 #a81919;
+    color: #cacaca;
+    
+  
+  
+  
+  }
+
+  html,
+  body {
+    height: 100%;
+    overflow: scroll
+    
+
+  }
+
+
+
+
+
+
+  
+  .open-card {
+    transform: rotateY(90deg);
+  }
+  
+  #outside-title {
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40pt;
+    text-align: center;
+  }
+  
+
+  
+  #outside-help {
+    color: rgb(0, 0, 0);
+    font-family: Courier;
+    font-size: 12pt;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  
+  #inside-title {
+    color: rgb(255, 255, 255);
+    font-family: Courier;
+    font-size: 20pt;
+    text-align: center;
+  }
+  
+  #inside-pic {
+    width: 300x;
+    height: 300px;
+  }
+  
+  #message {
+    color: rgb(255, 255, 255);
+    font-family: Courier;
+    font-size: 12pt;
+    text-align: center;
+  }
+  
+  #livechat {
+  
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32pt;
+    text-align: center;
+    width: 290px;
+    height: 20px;
+    position: fixed;
+    bottom: 100px;
+    left: 2500px;
+  
+  
+  }
+  
+
+  
+
+  
+  .button2 {
+  
+    background-color: #ff0000;
+    border: none #000000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 0 #a81919;
+    transition: ease-out 0.3s;
+    width: 300px;
+    height: 100px
+  }
+  
+  .button2:hover {
+  
+    box-shadow: inset 300px 0 0 0 #a81919;
+    color: #cacaca;
+  
+  
+  
+  }
+  
+  .button3 {
+  
+    background-color: #ff0000;
+    border: none #000000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 22px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 12px;
@@ -290,11 +669,76 @@ body {
     transition: ease-out 0.3s;
     width: 300px;
     height: 100px;
-    position: absolute;
-    left: 110px;
-    bottom: 100px;
-    top: 1000px;
-
   }
+  
+  .button3:hover {
+  
+    box-shadow: inset 300px 0 0 0 #5eff00;
+    color: #000000;
+  
+  
+  
+  }
+  
+  
+  .buttoninfo {
+  
+    background-color: #000000;
+    border: none #000000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 32px;
+    box-shadow: inset 0 0 0 0 #000000;
+    transition: ease-out 0.3s;
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    left: 40px;
+    top: 20px;
+  }
+  
+  
+  .buttoninfo:hover {
+  
+    box-shadow: inset 600px 0 0 0 #000000;
+    color: #f3abab;
+  }
+  
+  
+  
+  .buttonkontakt {
+  
+    background-color: #000000;
+    border: none #000000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 32px;
+    box-shadow: inset 0 0 0 0 #000000;
+    transition: ease-out 0.3s;
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    left: 400px;
+    top: 20px;
+  }
+  
+  
+  .buttonkontakt:hover {
+  
+    box-shadow: inset 600px 0 0 0 #000000;
+    color: #f3abab;
+  }
+  
 
 }
+
